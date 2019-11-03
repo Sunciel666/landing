@@ -1,0 +1,144 @@
+h1 {
+  color: gray;
+	font-size: 30px;
+	font-family: Helvetica;
+}
+h3 {
+  color: gray;
+	font-size: 20px;
+	font-family: Times New Roman;
+}
+p {
+  color: black;
+	font-size: 22px;
+	font-family: Times New Roman;
+}
+li {
+  color: black;
+	font-size: 22px;
+	font-family: Calibri;
+}
+
+i {
+  color: black;
+	font-size: 22px;
+	font-family: Calibri;
+}
+
+
+
+color: #FF530D;
+color: rgb(255, 83, 13);
+color: rgba(255, 83, 13, 1.0);
+
+body {
+  color: rgb(0, 0, 0);        /* black */
+  color: rgb(30, 30, 30);     /* dark grey */
+  color: rgb(120, 120, 120);  /* medium grey */
+  color: rgb(240, 240, 240);  /* light grey */
+  color: rgb(255, 255, 255);  /* white */
+}
+
+body {
+  color: rgb(10, 10, 10);     /* Text color */
+	background-color: #DFDDDF;  /* Background color */
+}
+You can also define a background image like this:
+
+body {
+	background-image: url(images/background.jpg); 
+}
+In this example, we assume you have a background.jpg image file in the images folder at the root of your project.
+
+Font family
+This is how you define your font in CSS
+
+body {
+  font-family: Times, serif;
+	font-family: Arial, sans-serif;
+	font-family: Courier, monospace;
+}
+
+body {
+  font-weight: 300;
+	font-weight: 400;
+	font-weight: 500;
+	font-weight: 600;
+}
+
+
+perfect-circle {
+  width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+div{
+  background: white
+  border:2px solid;
+
+ }
+
+ #logo { width: 40px;
+}
+
+container {
+  width: 700px;
+  margin: 40px auto; 
+}
+
+img-circle{ border-radius: 50%;}
+.img-bordered {border: 5px solid grey;}
+
+@media (max-width: 960px) {.container {width: 700px;}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+
+
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+
+
+body {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  margin: 0px;
+}
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+}
+
+.card {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.2)
+  border-radius:6px;
+  margin: 20px;
+}
+.card img {
+  width: 150px;
+  border-radius: 6px;
+}
+.card h3 {
+  flex-grow: 1;
+  padding-left: 20px;
+  font-size: 24px;
+  }
+
